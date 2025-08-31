@@ -3,6 +3,8 @@
 # Syed Shah
 # Z23713675
 
+Time spent: 4.5 hours
+
 
 
 <div>
@@ -97,14 +99,6 @@ Each `Task` contains:
 https://github.com/user-attachments/assets/368f5193-a6e0-44e6-8672-bba5ba3e78d5
 
 
-
----
-
-## 🚀 Future Improvements
-- Add **task deadlines & reminders**.  
-- Implement **cloud storage** for syncing tasks.  
-- Allow **multiple photos per task**.  
-- Add **filters/search** in task list.  
 
 ---
 
