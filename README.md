@@ -1,5 +1,8 @@
 # 🐿️ Task Squirrels – Unit 1 Lab
 
+# Syed Shah
+# Z23713675
+
 ## 📌 Overview
 **Task Squirrels** is an iOS app that desperate parents can use to motivate their kids to do chores and help out. The app manages a list of tasks, allows users to attach photos as proof of completion, and displays where those photos were taken on a map.  
 
@@ -22,7 +25,7 @@ By the end of this lab, you will be able to:
 - **Task List**: View a list of tasks with completion indicators.  
 - **Task Detail**: View task details (title, description, completion status).  
 - **Attach Photo**: Add a photo to mark a task as complete.  
-- **Map Integration**: Show the photo’s location on a map with a pin.  
+- **Map Integration**: Show the photo’s location on a map with a custom pin of the image used.  
 - **Custom Annotation**: Replace the default pin with a custom annotation view that displays the task image.  
 - **View Photo**: Open a full-screen view of the attached photo.  
 
