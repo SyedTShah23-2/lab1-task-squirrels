@@ -3,6 +3,16 @@
 # Syed Shah
 # Z23713675
 
+
+
+<div>
+    <a href="https://www.loom.com/share/80e341dd34cc4a85829d9df78ad4b079">
+    </a>
+    <a href="https://www.loom.com/share/80e341dd34cc4a85829d9df78ad4b079">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/80e341dd34cc4a85829d9df78ad4b079-93fb1af006759ad4-full-play.gif">
+    </a>
+  </div>
+
 ## 📌 Overview
 **Task Squirrels** is an iOS app that desperate parents can use to motivate their kids to do chores and help out. The app manages a list of tasks, allows users to attach photos as proof of completion, and displays where those photos were taken on a map.  
 
@@ -82,7 +92,11 @@ Each `Task` contains:
 ---
 
 ## 📸 Screenshots
-*(Add screenshots of Task List, Attach Photo, Map, and Photo View here)*  
+ 
+
+https://github.com/user-attachments/assets/368f5193-a6e0-44e6-8672-bba5ba3e78d5
+
+
 
 ---
 
@@ -95,8 +109,6 @@ Each `Task` contains:
 ---
 
 ## 👨‍💻 Author
-**Your Name**  
+**Syed Shah**  
 Unit 1 – Mobile Development Lab  
-[Your Email / GitHub / LinkedIn]  
 
----
