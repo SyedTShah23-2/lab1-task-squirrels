@@ -1,108 +1,46 @@
-# 🐿️ Task Squirrels – Unit 1 Lab
+# Project 1
 
-# Syed Shah
+Submitted by: Syed Shah
 # Z23713675
 
-Time spent: 4.5 hours
+Scavenger Hunt App - attach photos to particular tasks
 
+Time spent: 2 hours
 
+##Required Features
 
+- [x] App displays list of hard-coded tasks
+- [x] Users should be able to tap into a task and be navigated to the task detail screen
+- [x] Tasks that have been completed should be visually distinguished
+- [x] Users should be able to view the title, description, and possibly the attached photo of the task
+- [x] Users should be able to attach a photo to the task
+
+## Strech
+- [ ] Give the user the option to open the camera instead of choosing from the photo library
+
+## Video Walkthrough
 <div>
-    <a href="https://www.loom.com/share/80e341dd34cc4a85829d9df78ad4b079">
+    <a href="https://www.loom.com/share/2f31d64ac6f943c48143fc237b5811b1">
     </a>
-    <a href="https://www.loom.com/share/80e341dd34cc4a85829d9df78ad4b079">
-      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/80e341dd34cc4a85829d9df78ad4b079-93fb1af006759ad4-full-play.gif">
+    <a href="https://www.loom.com/share/2f31d64ac6f943c48143fc237b5811b1">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/2f31d64ac6f943c48143fc237b5811b1-a08c33523c8dc9cd-full-play.gif">
     </a>
   </div>
 
-## 📌 Overview
-**Task Squirrels** is an iOS app that desperate parents can use to motivate their kids to do chores and help out. The app manages a list of tasks, allows users to attach photos as proof of completion, and displays where those photos were taken on a map.  
+## Notes
 
-This project demonstrates **photo library integration, metadata handling, and MapKit annotations** in iOS development.
+## License
 
----
+    Copyright [2025] [Syed Shah]
 
-## 🎯 Goals
-By the end of this lab, you will be able to:
-- Use **PHPickerViewController** to select photos and retrieve metadata.  
-- Work with **PHAsset** to access location information from images.  
-- Display photos and locations using **MapKit** with custom annotations.  
-- Manage tasks using a custom data model and pass data between view controllers.  
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
 
----
+        http://www.apache.org/licenses/LICENSE-2.0
 
-## ✨ Features
-
-### ✅ Required Features
-- **Task List**: View a list of tasks with completion indicators.  
-- **Task Detail**: View task details (title, description, completion status).  
-- **Attach Photo**: Add a photo to mark a task as complete.  
-- **Map Integration**: Show the photo’s location on a map with a custom pin of the image used.  
-- **Custom Annotation**: Replace the default pin with a custom annotation view that displays the task image.  
-- **View Photo**: Open a full-screen view of the attached photo.  
-
-### 🛠️ Data Model
-Each `Task` contains:
-- `title` (String)  
-- `description` (String)  
-- `image` (UIImage?)  
-- `isComplete` (Bool, computed → true if `image != nil`)  
-- `imageLocation` (CLLocation?, metadata from photo)  
-
----
-
-## 🧪 Lab Instructions (Implementation Steps)
-1. **Setup the Project**  
-   - Run the starter project (`lab_1.zip`).  
-   - Explore the `TaskListViewController`, `TaskDetailViewController`, and `Task` model.  
-
-2. **Photo Library Access**  
-   - Import `PhotosUI`.  
-   - Request authorization with `PHPhotoLibrary.authorizationStatus`.  
-   - Add `NSPhotoLibraryUsageDescription` to `Info.plist`.  
-
-3. **Image Picker**  
-   - Configure and present `PHPickerViewController`.  
-   - Conform to `PHPickerViewControllerDelegate`.  
-
-4. **Get Metadata & Image**  
-   - Use `PHAsset` to extract **location coordinates**.  
-   - Load the selected image as a `UIImage`.  
-   - Update task data and UI.  
-
-5. **MapKit Integration**  
-   - Use `MKMapView` to show photo location.  
-   - Zoom into the photo’s coordinates.  
-   - Drop a **custom annotation** with the photo thumbnail.  
-
-6. **Custom Annotation View**  
-   - Create `TaskAnnotationView` subclass of `MKAnnotationView`.  
-   - Configure it to display the photo instead of the default pin.  
-
-7. **View Photo in Detail**  
-   - Add a “View Photo” button to `TaskDetailViewController`.  
-   - Segue into a new `PhotoViewController` to display the image.  
-
----
-
-## 📲 Running the App
-1. Clone or download the project.  
-2. Open in **Xcode (15 or later recommended)**.  
-3. Run on a **physical iOS device** (preferred for metadata access).  
-4. Create a new task, attach a photo, and view its location on the map.  
-
----
-
-## 📸 Screenshots
- 
-
-https://github.com/user-attachments/assets/368f5193-a6e0-44e6-8672-bba5ba3e78d5
-
-
-
----
-
-## 👨‍💻 Author
-**Syed Shah**  
-Unit 1 – Mobile Development Lab  
-
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
